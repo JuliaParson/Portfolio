@@ -1,0 +1,108 @@
+/* General */
+
+/* Reset margins and padding for the entire page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Ensure the page takes up the full viewport height */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Arrange header, main, and footer vertically */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #eee;
+}
+
+main {
+    flex: 1; /* Allow the main content to grow and push the footer down */
+    padding: 20px; /* Optional: Add space for content in the main section */
+    overflow: auto; /* Make main content scrollable if it overflows */
+}
+
+h1.flashy {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #20c997;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header Layout */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #20c997;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background-color: #20c997;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #17a38a;
+}
+
+/* Footer Icons */
+.icon-footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0);
+}
+
+.footer-icon {
+    width: 40px; /* Default size for footer icons */
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8; /* Slight transparency */
+}
+
+.footer-icon:hover {
+    transform: scale(1.3); /* Enlarge footer icon on hover */
+    opacity: 1; /* Fully opaque */
+}

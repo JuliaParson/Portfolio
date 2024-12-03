@@ -1,0 +1,26 @@
+.about-image {
+    display: block; /* Makes the image act like a block element */
+    margin: 15px auto; /* Centers the image horizontally and adds vertical space */
+    max-width: 50%; /* Ensures the image scales down on smaller screens */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.about-title h2 {
+    font-size: 2rem; 
+    color: #20c997; 
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 10px; /* Reduce space below the title */
+}
+
+.about {
+    text-align: center; /* Center-align everything in the section */
+}
+
+.button {
+    margin-top: 15px; /* Add some space above the button */
+}
+
+.about-title container {
+    padding: 0;
+}
