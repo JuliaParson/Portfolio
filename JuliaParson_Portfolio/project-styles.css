@@ -1,0 +1,74 @@
+/* Center the project-detail section */
+.project-detail {
+    display: flex;            /* Use flexbox for centering */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically if needed */
+    padding: 2rem 1rem;       /* Add spacing */
+}
+
+/* Card containing the entire project */
+.card {
+    max-width: 800px;         /* Limit the card width */
+    background: #ffffff;      /* Card background color */
+    color: #1a1a1a;           /* Text color */
+    border-radius: 12px;      /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 2rem;            /* Inner spacing for the card */
+    text-align: center;       /* Center-align the content */
+}
+
+/* Card header styling */
+.card h1 {
+    font-size: 2rem;
+    color: #f91762;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: #f91762; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Image inside the card */
+.card-image {
+    max-width: 100%;          /* Ensure the image adjusts to card width */
+    height: auto;             /* Maintain aspect ratio */
+    margin-bottom: 1.5rem;    /* Space below the image */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow to the image */
+}
+
+/* Subheading inside the card */
+.card h2 {
+    font-size: 1.5rem;
+    color: #f91762;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Paragraph styling */
+.card p {
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Card subtitle (technologies used) */
+.card-subtitle {
+    display: flex;            /* Use flexbox for layout */
+    justify-content: center;  /* Center items horizontally */
+    gap: 8px;                 /* Space between items */
+    flex-wrap: wrap;          /* Wrap items to the next line */
+}
+
+.card-subtitle span {
+    background: #444;         /* Dark background for badges */
+    color: #eee;              /* Light text color */
+    padding: 4px 12px;        /* Add padding around text */
+    border-radius: 20px;      /* Fully rounded corners */
+    font-size: 0.85rem;
+}
