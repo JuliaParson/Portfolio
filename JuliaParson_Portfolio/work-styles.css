@@ -1,6 +1,6 @@
 .work-title h2 {
     font-size: 2rem; 
-    color: #20c997; 
+    color: #f91762; 
     text-align: center;
     font-family: 'Poppins', sans-serif; 
 }
@@ -11,8 +11,8 @@
 }
 
 .resume-download .download-button {
-    background-color: #20c997; 
-    color: #fff;
+    background-color: #f91762; 
+    color: #f4eff2;
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
@@ -22,14 +22,14 @@
 }
 
 .resume-download .download-button:hover {
-    background-color: #17a38a; /* Darker accent for hover effect */
+    background-color: #f4437e; /* Darker accent for hover effect */
     transform: scale(1.05); /* Subtle scaling effect */
 }
 
 /* Timeline */
 .timeline {
     margin: 0 5rem;
-    border-left: 4px solid #20c997; 
+    border-left: 4px solid #f91762; 
     padding-left: 20px;
 }
 
@@ -49,27 +49,27 @@
 
 .job-title {
     font-size: 1.5rem; 
-    color: #20c997; 
+    color: #f4437e; 
     margin: 0; 
 }
 
 .job-duration {
     font-size: 1rem;
-    color: #eee; 
+    color: #1a1a1a; 
     margin: 0;
 }
 
 /* Job Company */
 .job-company {
     font-size: 0.9rem; 
-    color: #eee; 
+    color: #1a1a1a; 
     margin: 0.5rem 0;
 }
 
 /* Job Duties */
 .job-duties {
     font-size: 1rem; 
-    color: #eee; 
+    color: #1a1a1a; 
     list-style-type: disc; 
     margin-left: 1.5rem; 
     margin-top: 0.5rem;

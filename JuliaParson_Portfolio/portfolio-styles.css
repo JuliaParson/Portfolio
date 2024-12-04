@@ -2,40 +2,55 @@
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
-    gap: 20px;
-    padding: 0 6rem;
+    gap: 15px; /* Slightly reduce the gap */
+    padding: 0 4rem; /* Adjust padding to fit smaller cards */
 }
 
+/* Card Styles */
 .card {
     background: #333;
     color: #eee;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    padding: 1.5rem;
+    border-radius: 12px; /* Slightly smaller border radius */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    padding: 1rem; /* Smaller padding */
     text-align: center; /* Center-align the content inside the card */
+    font-size: 0.9rem; /* Slightly smaller font size for all card text */
 }
 
 .card.large {
-    grid-column: span 1; /* Large cards span two columns */
+    grid-column: span 1; /* Large cards still span two columns */
 }
 
 /* Card Content */
 .card-title {
-    font-size: 1.5rem;
+    font-size: 1.25rem; /* Smaller title size */
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 10px; /* Add space below the title */
+    margin-bottom: 8px; /* Reduce spacing below the title */
 }
 
 .card-image {
-    width: 100%; /* Make the image span the width of the card */
+    width: 100%; /* Ensure image spans the width of the card */
     height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add space below the image */
-    border-radius: 10px; /* Add rounded corners to the image */
+    margin-bottom: 8px; /* Reduce spacing below the image */
+    border-radius: 8px; /* Adjust image border radius */
 }
 
+/* Card Subtitles with Rounded Borders */
 .card-subtitle {
-    font-size: 1rem;
+    font-size: 0.9rem; /* Slightly smaller text */
     font-family: 'Roboto', sans-serif;
-    color: #bbb;
-    margin-top: 5px; /* Add some space above the subtitle */
+    color: #ddd;
+    margin-top: 8px; /* Add some space above the subtitle */
+    display: flex; /* Enable flexbox for wrapping values */
+    justify-content: center; /* Center align the values */
+    gap: 8px; /* Add spacing between rounded values */
+    flex-wrap: wrap; /* Wrap to the next line if too many values */
+}
+
+.card-subtitle span {
+    background: #444; /* Background for rounded value borders */
+    padding: 4px 8px; /* Add space around the text */
+    border-radius: 20px; /* Fully rounded corners */
+    font-size: 0.85rem; /* Slightly smaller font size */
+    color: #eee; /* Text color inside the rounded border */
 }

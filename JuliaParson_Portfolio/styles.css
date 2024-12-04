@@ -17,8 +17,8 @@ html, body {
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #1a1a1a;
-    color: #eee;
+    background-color: #f4eff2;
+    color: #1a1a1a;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
 h1.flashy {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
-    color: #20c997;
+    color: #f91762;
 }
 
 .container {
@@ -58,7 +58,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #eee;
+    color: #1a1a1a;
     font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s;
@@ -66,14 +66,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #20c997;
+    color: #f91762;
 }
 
 /* Buttons */
 .button {
     display: inline-block;
-    background-color: #20c997;
-    color: #fff;
+    background-color: #f91762;
+    color: #f4eff2;
     padding: 10px 20px;
     border-radius: 50px;
     text-decoration: none;
@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .button:hover {
-    background-color: #17a38a;
+    background-color: #f4437e;
 }
 
 /* Footer Icons */
@@ -92,7 +92,7 @@ nav a:hover {
     align-items: center;
     gap: 20px;
     padding: 15px;
-    background-color: rgba(0, 0, 0);
+    background-color: #1a1a1a;
     position: relative;
 }
 

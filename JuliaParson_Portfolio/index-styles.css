@@ -5,7 +5,7 @@
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust for centering */
     text-align: center; /* Center-align text */
-    color: #eee; /* Text color */
+    color: #1a1a1a; /* Text color */
     z-index: 2; /* Ensure it's above other elements */
 }
 
@@ -13,7 +13,7 @@
     font-family: 'Poppins', sans-serif; /* Flashy font */
     font-size: 3rem; /* Large name size */
     margin-bottom: 5px;
-    color: #20c997; /* Teal */
+    color: #f91762; 
 }
 
 header .header-container {
@@ -24,7 +24,7 @@ header .header-container {
 .hero-text p {
     font-family: 'Roboto', sans-serif; /* Professional font */
     font-size: 1.5rem; /* Smaller job title */
-    color: #eee;
+    color: #1a1a1a;
 }
 
 /* Animated Icons in Main */
