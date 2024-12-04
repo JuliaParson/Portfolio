@@ -11,7 +11,7 @@
 
 .contact p {
     font-size: 1.1rem;
-    color: #aaa;
+    color: #f4437e;
 }
 
 /* Container for contact cards */
@@ -29,20 +29,19 @@
     color: #fff;
     padding: 2rem;
     border-radius: 8px;
-    width: 30%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-align: left; 
 }
 
 .contact-card a {
-    color: #20c997; 
+    color: #f91762; 
     text-decoration: none; 
     font-weight: bold;
     transition: color 0.3s ease, transform 0.2s ease; 
 }
 
 .contact-card a:hover {
-    color: #17a38a; 
+    color: #f4437e; 
     transform: scale(1.05); 
 }
 
