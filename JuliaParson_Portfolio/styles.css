@@ -25,6 +25,9 @@ main {
     flex: 1; /* Allow the main content to grow and push the footer down */
     padding: 20px; /* Optional: Add space for content in the main section */
     overflow: auto; /* Make main content scrollable if it overflows */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1.flashy {
@@ -84,15 +87,13 @@ nav a:hover {
 
 /* Footer Icons */
 .icon-footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 15px;
     background-color: rgba(0, 0, 0);
+    position: relative;
 }
 
 .footer-icon {

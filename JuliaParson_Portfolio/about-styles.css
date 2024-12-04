@@ -10,17 +10,24 @@
     color: #20c997; 
     text-align: center;
     font-family: 'Poppins', sans-serif; 
-    margin-bottom: 10px; /* Reduce space below the title */
+}
+
+.about-title .container {
+    padding: 0;
 }
 
 .about {
     text-align: center; /* Center-align everything in the section */
 }
 
-.button {
-    margin-top: 15px; /* Add some space above the button */
+.about .button {
+    margin-bottom: 10px;
 }
 
-.about-title container {
+.about .container {
     padding: 0;
+}
+
+.button {
+    margin-top: 15px; /* Add some space above the button */
 }
