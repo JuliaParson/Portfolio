@@ -16,6 +16,11 @@
     color: #20c997; /* Teal */
 }
 
+header .header-container {
+    margin-top: 49px;
+    justify-content: right;
+}
+
 .hero-text p {
     font-family: 'Roboto', sans-serif; /* Professional font */
     font-size: 1.5rem; /* Smaller job title */
